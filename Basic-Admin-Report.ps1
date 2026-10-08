@@ -28,11 +28,13 @@ $biosReport = $bios |
         BIOSManufacturer  = $bios.Manufacturer 
         BIOSVersion       = $bios.SMBIOSBIOSVersion 
         SerialNumber      = $bios.SerialNumber 
+        BIOSReleaseDate    = $bios.ReleaseDate
     }
 $reportProperties
 $reportProperties['ComputerName'] 
 $adminReport = [pscustomobject]$reportProperties 
 $adminReport 
+
 $adminReport | Get-Member -MemberType NoteProperty 
 $adminReport.ComputerName 
 $adminReport | Select-Object ComputerName, Model, BIOSVersion 
@@ -40,4 +42,10 @@ $reportFolder = $env:USERPROFILE
 $reportFolder 
 $adminReport | 
     Export-Csv "$reportFolder\AdminReport.csv" -NoTypeInformation 
+
     Import-Csv "$reportFolder\AdminReport.csv" 
+
+    $adminReport | select-object Domain, ComputerName
+$bios | Get-Member     
+Select-Object ReleaseDate 
+$bios
