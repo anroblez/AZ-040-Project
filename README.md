@@ -53,4 +53,11 @@ OK:EventLog
 OK:W32Time
 OK:Spooler
 REVIEW Total: 0
-Reflection:The script displated 3 OKs and Review total of 0.
+Reflection:The script displated 3 OKs and Review total of 0.A stopped service is not always a fault because some services are only configured to run when needed.
+
+Challenge: 07 
+Run Location: LON-CL1
+
+
+
+Reflection: 
