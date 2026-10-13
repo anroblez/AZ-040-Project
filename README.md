@@ -42,3 +42,7 @@ Run Location: LON-CL1
 
 Reflection: The script displays each service name and totals it up.
 
+Challenge: 05 
+Run Location: LON-CL1
+
+Reflection: The foreach loop checked each computer in the array and displayed its Active Directory information.
