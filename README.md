@@ -35,4 +35,10 @@ EventLog: Running
 W32Time: Running
 Spooler: Running
 
-Reflection: Thev script displays the Name and Status properties of each service object.
+Reflection: The script displays the Name and Status properties of each service object.
+
+Challenge: 04
+Run Location: LON-CL1
+
+Reflection: The script displays each service name and totals it up.
+
