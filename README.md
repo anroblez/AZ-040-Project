@@ -16,3 +16,13 @@ Computer: LON-SVR1
 Reflection: 
 The variable '$computers' contains the entire array of  computer names.
 'computer' contains one item from the array per iteration of the foreach loop
+
+Challenge 02
+Run Location: LON-CL1
+
+Observed Result:
+Computer: LON-CL1.Adatum.com
+Computer: LON-DC1.Adatum.com
+Computer: LON-SVR1.Adatum.com
+
+Reflection: The foreach loop included the $domain variable, to include both the computer and domain name in the output.
