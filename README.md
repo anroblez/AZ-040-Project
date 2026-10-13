@@ -49,5 +49,8 @@ Reflection: The foreach loop checked each computer in the array and displayed it
 
 Challenge: 06
 Run Location: LON-CL1
-
-Reflection:
+OK:EventLog
+OK:W32Time
+OK:Spooler
+REVIEW Total: 0
+Reflection:The script displated 3 OKs and Review total of 0.
