@@ -50,4 +50,4 @@ Reflection: The foreach loop checked each computer in the array and displayed it
 Challenge: 06
 Run Location: LON-CL1
 
-Reflection: The foreach loop checked each computer in the array and displayed its Active Directory information.
+Reflection:
