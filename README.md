@@ -26,3 +26,13 @@ Computer: LON-DC1.Adatum.com
 Computer: LON-SVR1.Adatum.com
 
 Reflection: The foreach loop included the $domain variable, to include both the computer and domain name in the output.
+
+Challenge: 03
+Run Location: LON-CL1
+
+Observed Result:
+EventLog: Running
+W32Time: Running
+Spooler: Running
+
+Reflection: Thev script displays the Name and Status properties of each service object.
