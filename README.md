@@ -46,3 +46,8 @@ Challenge: 05
 Run Location: LON-CL1
 
 Reflection: The foreach loop checked each computer in the array and displayed its Active Directory information.
+
+Challenge: 06
+Run Location: LON-CL1
+
+Reflection: The foreach loop checked each computer in the array and displayed its Active Directory information.
